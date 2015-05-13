@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C57B06F4-251A-4A9E-9575-F2246FEE31E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Triki</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D297D500B4E0F732B08E791AEB8593FEEB1292D4</key>
+		<string>https://github.com/Whistler092/Triki.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Triki.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D297D500B4E0F732B08E791AEB8593FEEB1292D4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Whistler092/Triki.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D297D500B4E0F732B08E791AEB8593FEEB1292D4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D297D500B4E0F732B08E791AEB8593FEEB1292D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Triki</string>
+		</dict>
+	</array>
+</dict>
+</plist>
