@@ -11,10 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     //1 Cross && 2 nought
     var activePlayer = 1
+    var gameLoked = 0
     
     var gameStage = [0,0,0,0,0,0,0,0,0]
     var winningCombinations = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
     var gameActive = true
+    
     
     @IBAction func playAgainAction(sender: AnyObject) {
         activePlayer = 1
@@ -34,6 +36,7 @@ class ViewController: UIViewController {
         
         gameOverLabel.center = CGPointMake(gameOverLabel.center.x - 400, gameOverLabel.center.y)
         playAgainButton.center = CGPointMake(playAgainButton.center.x - 400, playAgainButton.center.y)
+        gameLoked = 0
 
     }
     
@@ -46,6 +49,7 @@ class ViewController: UIViewController {
         if(gameStage[sender.tag] == 0 && gameActive == true) {
             
             gameStage[sender.tag] = activePlayer;
+            gameLoked++;
         
             var image = UIImage(named: "cross")
             if( activePlayer == 1)
@@ -86,6 +90,24 @@ class ViewController: UIViewController {
                     gameActive = false
                     
                 }
+            }
+            
+            
+            if(gameLoked == 9)
+            {
+                gameOverLabel.text = "Empatados!"
+                
+                
+                gameOverLabel.hidden = false
+                playAgainButton.hidden = false
+                
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.gameOverLabel.center = CGPointMake(self.gameOverLabel.center.x + 400, self.gameOverLabel.center.y)
+                    self.playAgainButton.center = CGPointMake(self.playAgainButton.center.x + 400, self.playAgainButton.center.y)
+                })
+                
+                gameActive = false
+
             }
         }
         

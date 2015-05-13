@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Triki.ViewController.buttonPressed (Triki.ViewController)(Swift.AnyObject) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gameStage[combination[1]]">
+            </PersistentString>
+            <PersistentString
+               value = " gameStage[combination[2]]">
+            </PersistentString>
+            <PersistentString
+               value = "gameStage[combination[0]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
